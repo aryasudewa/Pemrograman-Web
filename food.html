@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Foods - Surabaya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+        .navbar {
+            background-color: #34495e;
+        }
+        .navbar-brand {
+            color: #ecf0f1;
+        }
+        .navbar-nav .nav-link {
+            color: #ecf0f1;
+        }
+        .navbar-nav .nav-link.active {
+            font-weight: bold;
+            color: #f39c12;
+        }
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        .food-info {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .food-images img {
+            width: 30%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Arya Sudewa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hometown.html">Hometown</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="food.html">Local Foods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tourist.html">Tourist Places</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Local Foods of Surabaya</h1>
+
+        <div class="food-images">
+            <img src="img/food/rawon.jpg" alt="Rawon">
+            <img src="img/food/rujakcingur.jpg" alt="Rujak Cingur">
+            <img src="img/food/sateklopo.jpg" alt="Sate Klopo">
+        </div>
+
+        <div class="food-info">
+            <h2>Rawon</h2>
+            <p><strong>Rawon</strong> is a rich and flavorful beef soup, famous for its deep black broth made from keluak nuts. This dish is a staple in Surabaya, with its savory and slightly tangy taste. It is usually served with rice, salted eggs, and sambal for an added kick of spice.</p>
+            
+            <h2>Rujak Cingur</h2>
+            <p><strong>Rujak Cingur</strong> is a traditional salad unique to Surabaya. It features a mix of fresh fruits, vegetables, and slices of boiled cow snout (cingur) drenched in a sweet and tangy peanut sauce with fermented shrimp paste. This dish perfectly balances sweet, sour, and savory flavors.</p>
+
+            <h2>Sate Klopo</h2>
+            <p><strong>Sate Klopo</strong> is skewered grilled meat, but what sets it apart is the addition of grated coconut (klopo) on the skewers, which gives the meat a unique, slightly crunchy texture. This dish is loved by locals for its savory taste and is often paired with rice cakes or lontong.</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
